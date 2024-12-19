@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    line-height: 1.6;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+}
+
+.project-grid {
+    display: grid;
+  /*   grid-template-columns: repeat(auto-fit, minmax(300px, 0.5fr)); */
+  grid-template-columns:repeat(4, 300px );
+  margin:90px;
+  
+    gap: 2rem;
+}
+
+.projcard{
+    margin-top:30px;
+    margin-left:20px;
+    margin-right:20px;
+    color: rgb(63, 249, 255);
+    background-color: #074668;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projcard img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.projcard h3{
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.text{
+
+    padding:8px;
+    background-color:rgb(255, 255, 255);
+    border-radius:10px;
+    color:black;
+    line-height:5;
+    text-decoration:none;
+}
